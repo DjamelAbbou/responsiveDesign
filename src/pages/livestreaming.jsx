@@ -1,6 +1,6 @@
 import Page from "@/ui/page";
 
-export default function Home() {
+export default function LivestreamingPage() {
   return (
     <Page
       {...{
