@@ -5,7 +5,3 @@
 body {
   @apply bg-gray-800;
 }
-
-p {
-  @apply my-2;
-}
