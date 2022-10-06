@@ -4,7 +4,7 @@ export default function LivestreamingPage() {
   return (
     <Page
       {...{
-        title: "First Page",
+        title: "live streaming page",
         description: "my first page",
       }}
     ></Page>
