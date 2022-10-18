@@ -28,6 +28,6 @@
   },
   "initialize a functional component": {
     "prefix": "fc",
-    "body": "export default function $1({$2}) {\n\treturn <div></div>\n}"
+    "body": "export default function $1({$2}) {\n\treturn <div>$3</div>\n}"
   }
 }
