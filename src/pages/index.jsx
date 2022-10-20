@@ -1,5 +1,5 @@
 import Container from "@/ui/container";
-import dbPromise from "@/modules/db";
+import dbPromise, { jsonify } from "@/modules/db";
 
 export default function HomePage({ users }) {
   return <Container className="mt-16 text-white text-2xl"></Container>;
@@ -14,7 +14,7 @@ export async function getServerSideProps({ ctx }) {
 
   return {
     props: {
-      users,
+      users: jsonify(users),
     },
   };
 }
