@@ -8,9 +8,9 @@ const font = Poppins({
 export default function WithFont(Component) {
   return function WrapperFunction({ children, ...rest }) {
     return (
-      <Component {...rest}>
-        <div className={`${font.variable}`}>{children}</div>
-      </Component>
+      <div className={`${font.variable}`}>
+        <Component {...rest}>{children}</Component>
+      </div>
     );
   };
 }
