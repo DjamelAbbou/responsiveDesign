@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.container {
+  background: #23424a;
+  color: white;
+
+  width: 80%;
+  margin: 0 auto;
+
+  padding: 2em;
+  height: 300px;
+}
